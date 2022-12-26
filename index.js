@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
 
 app.get('/cats', (req, res) => {
     const cats = [
-        'Horácio', 'Horacinho', 'Olivia', 'Bibita', 'Salém', 'Intruso'
+        'Horácio', 'Horacinho', 'Olivia', 'Bibita', 'Salém', 'Gata'
     ]
 
     res.render('cats', { cats })
